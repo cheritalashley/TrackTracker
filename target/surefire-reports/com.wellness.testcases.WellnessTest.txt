@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.wellness.testcases.WellnessTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.259 sec <<< FAILURE!
+testSendemail(com.wellness.testcases.WellnessTest)  Time elapsed: 0.805 sec  <<< FAILURE!
+java.lang.Exception: test fail
+	at com.wellness.testcases.WellnessTest.testSendemail(WellnessTest.java:34)
+

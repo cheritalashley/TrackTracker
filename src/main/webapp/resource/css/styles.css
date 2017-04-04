@@ -1,0 +1,143 @@
+@charset "utf-8"; 
+body {
+	width: 100%;     
+  	margin: 0 auto;
+	line-height: 0em;
+	background-image: url(../images/running.jpg);
+	background-size: 100% 1701px;
+	background-attachment: fixed;
+	font-family: actor;
+	font-style: normal;
+	font-weight: 400;
+	height: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	background-color: #261937;
+}
+
+h3 {
+	font-family: alfa-slab-one;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1em;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+footer {
+	font-family: adamina;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	font-size: small;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #4A2C02;
+	text-align: center;
+	color: #FBFBFB;
+}
+aside {
+	font-family: aclonica;
+	font-style: normal;
+	font-weight: 400;
+	font-size: large;
+	line-height: 1em;
+	text-align: center;
+	color: #030303;
+}
+p {
+	text-align: center;
+	font-family: acme;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin: 90% auto 0 -37px;
+    width: /*whatever width you want*/;
+}
+
+h4 {
+	font-family: aclonica;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	line-height: 10px;
+}
+
+h2 {
+	font-family: aclonica;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	line-height: 10px;
+	color: #008000;
+}
+.main{
+	width: 500px;
+	margin: auto auto;
+}
+
+.formStyle {
+	width: 100%;
+	line-height: 20px;
+}
+
+.labelStyle{
+	width: 100%;
+	line-height: 30px;
+	align-content: center;
+	font-family: acme;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.buttonStyle {
+	position: relative;
+	left: 100px;
+	top: 20px;
+	line-height: 60px;
+}
+
+.buttonStyle2 {
+	position: relative;
+	left: 10px;
+	top: 20px;
+	line-height: 60px;
+}
+.leftside{
+	text-align: left;
+	padding-top: 20px;
+}
+.newBg{
+	background-image: url(../images/runningbg.jpg);
+}
+.changed{
+	color: #008000;
+	font-family: aclonica;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 10px;
+	margin-left: 100px;
+}
+

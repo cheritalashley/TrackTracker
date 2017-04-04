@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.wellness.testcases.WellnessTest" duration-ms="830" started-at="2017-03-27T22:28:41Z" finished-at="2017-03-27T22:28:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="830" started-at="2017-03-27T22:28:41Z" finished-at="2017-03-27T22:28:42Z">
+      <class name="com.wellness.testcases.WellnessTest">
+        <test-method status="PASS" signature="addIntegerSets()[pri:0, instance:com.wellness.testcases.WellnessTest@97e1986]" name="addIntegerSets" duration-ms="25" started-at="2017-03-27T17:28:41Z" finished-at="2017-03-27T17:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addIntegerSets -->
+        <test-method status="PASS" signature="multiplicationOfZeroIntegersShouldReturnZero()[pri:0, instance:com.wellness.testcases.WellnessTest@97e1986]" name="multiplicationOfZeroIntegersShouldReturnZero" duration-ms="0" started-at="2017-03-27T17:28:41Z" finished-at="2017-03-27T17:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationOfZeroIntegersShouldReturnZero -->
+        <test-method status="PASS" signature="average()[pri:0, instance:com.wellness.testcases.WellnessTest@97e1986]" name="average" duration-ms="0" started-at="2017-03-27T17:28:41Z" finished-at="2017-03-27T17:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- average -->
+        <test-method status="FAIL" signature="testSendemail()[pri:0, instance:com.wellness.testcases.WellnessTest@97e1986]" name="testSendemail" duration-ms="801" started-at="2017-03-27T17:28:41Z" finished-at="2017-03-27T17:28:42Z">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[test fail]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: test fail
+	at com.wellness.testcases.WellnessTest.testSendemail(WellnessTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSendemail -->
+        <test-method status="PASS" signature="findingMaxOIntegerSet()[pri:0, instance:com.wellness.testcases.WellnessTest@97e1986]" name="findingMaxOIntegerSet" duration-ms="0" started-at="2017-03-27T17:28:41Z" finished-at="2017-03-27T17:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findingMaxOIntegerSet -->
+      </class> <!-- com.wellness.testcases.WellnessTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.wellness.testcases.WellnessTest -->
+</testng-results>
